@@ -7,10 +7,11 @@ const GROUP_LINKS = {
 };
 
 const stores = [
+  ["Mercado Livre", "https://commons.wikimedia.org/wiki/Special:FilePath/Mercado_Livre_wordmark_(Portuguese_version).svg"],
+  ["Shopee", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/shopee.svg"],
+  ["TikTok", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tiktok.svg"],
   ["Amazon", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazon.svg"],
-  ["Americanas", "https://commons.wikimedia.org/wiki/Special:FilePath/Lojas_Americanas_(2021).svg"],
-  ["Carrefour", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/carrefour.svg"],
-  ["Natura", "https://commons.wikimedia.org/wiki/Special:FilePath/Natura_logo.svg"],
+  ["AliExpress", "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/aliexpress.svg"],
 ];
 
 const iconUrl = (name: string, color: string) => `https://cdn.simpleicons.org/${name}/${color}`;
